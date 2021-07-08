@@ -193,23 +193,100 @@ nav ul li a:hover {
 
 .section-tow {
     width: 80%;
-    height: 700px;
+    height: 1000px;
     background-color: #B0E0E6;
     padding: 1% 0;
+
 }
 
 .div-content {
     width: 100%;
-    height: 650px;
-    background-color: #4682B4;
+    height: 870px;
+    display: flex;
 }
 
-.div-content a {
-    width: 100%;
-    padding: 16px 30px;
+.contebt-left {
+    top: 1000px;
+    position: sticky;
+    width: 20%;
+    height: 950px;
+    margin-top: 2%;
+    background-color: #B0E0E6;
+    float: left;
+    border-top: outset 3px black;
+    border-right: outset 3px black;
+    border-bottom: outset 3px black;
+}
+
+.contebt-left ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.contebt-left ul li {}
+
+.contebt-left ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.contebt-left ul li a:hover {
     background-color: #663399;
 }
 
 .content {
+    border-top: outset 3px black;
+    border-bottom: outset 3px black;
     width: 100%;
+    height: 950px;
+    margin-top: 2%;
+}
+
+.content-input {
+    width: 220px;
+    height: 270px;
+    float: left;
+    margin: 20px 0 0 25px;
+    border-radius: 10px;
+    background-color: #B0E0E6;
+    box-shadow: 10px 10px 30px black;
+}
+
+.img-div {
+    width: 200px;
+    height: 200px;
+    background-color: #708bd2;
+    float: left;
+    margin: 10px 0 0 10px;
+    border-radius: 10px;
+
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.content-button {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    float: left;
+    margin: 25px 0 0 0;
+}
+
+.there-section {
+    width: 80%;
+    height: 400px;
+    background-color: #B0E0E6;
+    border-bottom: outset 3px black;
 }
